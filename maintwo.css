@@ -1,0 +1,151 @@
+body {
+	background-color: black;
+	width: 100%;
+	height: 90%;
+}
+.frame {
+	top: 5vh;
+	right: 5vh;
+	left: 5vh;
+	width: 80%;
+  	height: 75%;
+	background: slategrey;
+	margin: auto;
+	position: absolute;
+}
+.table {
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 80%;
+	height: 55%;
+}
+.background {
+	background-color: dimgrey;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 20%;
+	height: 55%;
+}
+.allcandle {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 50%;
+	height: 80%;
+	margin: auto;
+	align-content: center;
+}
+
+.candle {
+	position: absolute;
+	width: 5vh;
+	height: 12vh;
+	right: 49%;
+	top: -5%;
+	background-color: ivory;
+}
+.stick {
+	position: absolute;
+	width: 7vh;
+	height: 12vh;
+	background-color: gold;
+	right: 48%;
+	top: 10%;
+	z-index: 3;
+}
+.longstick {
+	position: absolute;
+	width: 3vh;
+	height: 36vh;
+	background-color: gold;
+	right: 50%;
+	top: 20%;
+}
+.candlebase {
+	position: absolute;
+    height: 10vh;
+    width: 35vh;
+    right: 20%;
+    bottom: 15%;
+    border-radius: 100%;
+    border: 3vh solid gold;
+    z-index: 2;
+}
+.pumpkin {
+	position: absolute;
+	bottom: 10%;
+	right: 30%;
+	width: 40vh;
+	height: 60vh;
+	z-index: 5;
+}
+
+.pumpkinbody {
+	position: absolute;
+	height: 30vh;
+	width: 30vh;
+	right: 0;
+	bottom: 0;
+	background-color: darkorange;
+	border-bottom-right-radius: 40%;
+	border-bottom-left-radius: 40%;
+	border-top-left-radius: 60%;
+	border-top-right-radius: 60%;
+	z-index: 5;
+	
+}
+.pumpkinknob {
+	position: absolute;
+	height: 5vh;
+	width: 3vh;
+	left: 60%;
+	bottom: 47%;
+	background-color: brown;
+	border-radius: 40%
+	z-index: 6;
+}
+.flowers {
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+.greenstems {
+	position: absolute;
+	height: 55vh;
+	width: 12vh;
+	background-color: mediumseagreen;
+	top: 0;
+	right: 70%;
+}
+.greenpoof {
+	position: relative;
+	top: 0;
+	right: 40%;
+	width: 0;
+    height: 0;
+    border-left: 14vh solid transparent;
+    border-right: 14vh solid transparent;
+    border-top: 28vh solid mediumseagreen;
+    z-index: 2;
+}
+.vase {
+	position: absolute;
+	height: 40vh;
+	width: 15vh;
+	background-color: rgba(245,245,220,.6);
+	right: 65%;
+	top: 65%;
+	z-index: 3;
+}
+.glass {
+	position: absolute;
+	height: 38vh;
+	width: 6vh;
+	background-color: rgb(245,245,220,.6);
+	right: 66%;
+	top: 65%;
+	z-index: 4;
+}
